@@ -1,12 +1,20 @@
-export const name = 'my-plugin'
+import * as keys from 'ssb-keys'
+
+export const name = 'keys'
 export const version = '0.0.1'
 
 export const manifest = {
-  helloWorld: 'sync'
+  box: 'sync',
+  unbox: 'sync',
+  sign: 'sync',
+  verifiy: 'sync',
 }
 export const init = () => {
   return {
-    helloWorld: () => console.log('Hello World')
+    box: keys.box,
+    unbox: keys.unbox,
+    sign: keys.sign,
+    verifiy: keys.verifiy
   }
 }
 
