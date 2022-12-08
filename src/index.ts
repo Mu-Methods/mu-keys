@@ -7,14 +7,16 @@ export const manifest = {
   box: 'sync',
   unbox: 'sync',
   sign: 'sync',
-  verifiy: 'sync',
+  verify: 'sync',
 }
 export const init = () => {
   return {
     box: keys.box,
     unbox: keys.unbox,
+    // @ts-ignore: next line (missing in @types) TODO re type this function
     sign: keys.sign,
-    verifiy: keys.verifiy
+    // @ts-ignore: next line (missing in @types it is a major version behind) TODO re type this function
+    verify: keys.verify
   }
 }
 
