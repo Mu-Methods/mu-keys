@@ -1,6 +1,6 @@
 {
   "name": "mu-keys",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "mu key api functions plugin",
   "main": "build/index.js",
   "repository": "https://github.com/Mu-Methods/mu-keys.git",
