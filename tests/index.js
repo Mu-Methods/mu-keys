@@ -10,4 +10,14 @@ test('should have exist and qualify spec', async (t) => {
   t.ok(plugin.version, 'plugin has a version')
   t.ok(plugin.init, 'plugin has an init function')
   t.deepEqual(Object.keys(plugin.manifest), Object.keys(plugin.init()),'plugins init object functions match whats listed in manifest')
+
+
+
+
+
+
+
+
+
+
 })
