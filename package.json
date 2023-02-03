@@ -7,6 +7,7 @@
   "author": "Mu Methods (@frankiebee)",
   "scripts": {
     "compile": "tsc",
+    "prepublishOnly": "yarn compile",
     "test": "yarn compile && node tests/index.js"
   },
   "license": "MIT",
