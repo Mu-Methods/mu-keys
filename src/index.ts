@@ -2,7 +2,7 @@ import * as keys from 'ssb-keys'
 import { derivePath, getPublicKey } from 'ed25519-hd-key'
 import * as bip39 from 'bip39'
 export const name = 'keyring'
-export const version = '0.0.1'
+export const version = require('../package.json')
 import { ID, KeyApi } from './types'
 
 export const manifest = {
